@@ -27,7 +27,10 @@ const UserHeader = ({
       </div>
       {!isLoggedIn ? (
         <div className="flex">
-          <Link href="https://github.com/westernal/Westernal-Frontend#readme">
+          <Link
+            href="https://github.com/westernal/Westernal-Frontend#readme"
+            target="_blank"
+          >
             <button className="contact-btn">Docs</button>
           </Link>{" "}
           <Link href="/">
