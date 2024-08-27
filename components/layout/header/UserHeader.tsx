@@ -26,9 +26,14 @@ const UserHeader = ({
         ) : null}
       </div>
       {!isLoggedIn ? (
-        <Link href="/">
-          <button className="contact-btn">Login</button>
-        </Link>
+        <div className="flex">
+          <Link href="https://github.com/westernal/Westernal-Frontend#readme">
+            <button className="contact-btn">Docs</button>
+          </Link>{" "}
+          <Link href="/">
+            <button className="contact-btn">Login</button>
+          </Link>
+        </div>
       ) : null}
       {isUserSelf && username ? (
         <div className="flex header-buttons" data-testid="header-buttons">
