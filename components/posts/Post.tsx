@@ -10,7 +10,7 @@ import formatDate from "../../functions/formatDate";
 import decodeJWT from "../../functions/decodeJWT";
 import { getCookie } from "cookies-next";
 import { PostProvider } from "../../context/postContext";
-import { Post } from "../../interfaces/interface";
+import { Post as PostType } from "../../interfaces/interface";
 import { HOST } from "../../data/data";
 import dynamic from "next/dynamic";
 const PostOptions = dynamic(() => import("./options/PostOptions"));
@@ -21,7 +21,7 @@ const Post = ({
   isLoggedIn = true,
   onUnsave,
 }: {
-  post: Post;
+  post: PostType;
   onDelete: any;
   isLoggedIn?: boolean;
   onUnsave?: any;
