@@ -1452,8 +1452,7 @@ dialog::backdrop {
   }
 
   #avatar,
-  .post-options .active,
-  .post iframe {
+  .post-options .active {
     border: 1px solid var(--dark-backup-color);
   }
 
