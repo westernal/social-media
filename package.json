@@ -18,7 +18,7 @@
     "email-validator": "^2.0.4",
     "jwt-decode": "^3.1.2",
     "lottie-react": "^2.4.0",
-    "next": "^14.2.12",
+    "next": "^14.2.20",
     "next-pwa": "^5.6.0",
     "next-sitemap": "^4.1.8",
     "react": "^18.2.0",
